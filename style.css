@@ -13,8 +13,8 @@ body {
     background-color: #080808d0 ;
     padding: 25px;
     border-radius: 10px;
-    width: 50vh;
-    height:60vh;
+    width: 500px;
+    height:550px;
     
 }
 
@@ -31,7 +31,9 @@ body {
     outline: none;
 }
 
-
+.buttons {
+    margin-left: 20px;
+}
 button {
     width: 100px;
     height:70px;
