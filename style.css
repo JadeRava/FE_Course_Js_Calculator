@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+.container {
+    background-color: #080808d0 ;
+    padding: 25px;
+    border-radius: 10px;
+    width: 50vh;
+    height:60vh;
+    
+}
+
+.display {
+    width: 44vh;
+    height: 7vh;
+    background-color: #fff;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    padding: 10px;
+    text-align: right;
+    font-family: monospace;
+    outline: none;
+}
+
+
+button {
+    width: 100px;
+    height:70px;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+button:active,
+button.active {
+  background-color: #ccc;
+  transform: scale(0.97);
+}
+#zero {
+    width: 22vh;
+}
+
+.operator {
+    background-color: #ed8f55;
+}
+
+.diff {
+    background-color: rgb(82, 187, 152);
+}
+
