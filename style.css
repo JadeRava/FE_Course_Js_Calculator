@@ -19,8 +19,8 @@ body {
 }
 
 .display {
-    width: 44vh;
-    height: 7vh;
+    width: 55vh;
+    height: 8vh;
     background-color: #fff;
     margin: 0 auto 20px auto;
     border-radius: 10px;
@@ -48,7 +48,7 @@ button.active {
   transform: scale(0.97);
 }
 #zero {
-    width: 22vh;
+    width: 29vh;
 }
 
 .operator {
